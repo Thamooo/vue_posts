@@ -1,24 +1,25 @@
-# test_task
+# Тестовое задание
 
-## Project setup
+## Установка
+
+### Пакеты
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск
+
+#### Клиентская часть:
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Серверная часть:
+
 ```
-npm run build
+json-server --watch db.json
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Обратите внимание, что обе команды должны быть запущенны одновременно в разных консолях или вкладках.
