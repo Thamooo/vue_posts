@@ -1,0 +1,35 @@
+.blog__search {
+  background: rgb(#3c3c43, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 50px;
+  width: 309px;
+  padding: 14px 16px 14px 8px;
+  margin-right: 92px;
+  @media (max-width: 753px) {
+    width: 100%;
+    padding: 7px 8px 7px 16px;
+    height: 36px;
+  }
+  &_icon {
+    line-height: 0;
+    margin-right: 8px;
+  }
+  &_input {
+    font-family: 'SFPro';
+    font-size: 17px;
+    background: none;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+    &::placeholder {
+      color: rgb(#3c3c43, 0.6);
+    }
+  }
+}

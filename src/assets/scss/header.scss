@@ -1,0 +1,36 @@
+@import '~@scss/variables.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 46px;
+  @media (max-width: 753px) {
+    display: none;
+  }
+  &__logo {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+  }
+  &__side {
+    display: flex;
+    align-items: center;
+  }
+  &__posts {
+    cursor: pointer;
+    display: flex;
+    &_icon {
+      line-height: 0;
+      margin-right: 9px;
+    }
+    &_title {
+      font-family: 'Manrope';
+      font-weight: 500;
+      font-size: 14px;
+      color: $primary_color;
+    }
+  }
+}

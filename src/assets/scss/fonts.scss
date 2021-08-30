@@ -1,0 +1,60 @@
+* {
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('~@fonts/manrope/Manrope-300.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('~@fonts/manrope/Manrope-regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('~@fonts/manrope/Manrope-500.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('~@fonts/manrope/Manrope-600.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('~@fonts/manrope/Manrope-700.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('~@fonts/inter/Inter-regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('~@fonts/inter/Inter-700.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('~@fonts/sfpro/SFPro-regular.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('~@fonts/sfpro/SFPro-bold.woff') format('woff');
+  font-weight: 700;
+}

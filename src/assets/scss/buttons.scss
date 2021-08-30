@@ -1,0 +1,19 @@
+.button {
+  padding: 14px;
+  box-sizing: border-box;
+  //   min-width: 309px;
+  background: none;
+  border: none;
+  font-family: 'Manrope';
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 5px;
+  &__primary {
+    background: $primary_color;
+    color: white;
+  }
+  &__secondary {
+    box-shadow: 0px 0px 0px 1px $primary_color;
+    color: $primary_color;
+  }
+}

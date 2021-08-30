@@ -1,0 +1,19 @@
+@import '~@scss/variables.scss';
+@import '~@scss/fonts.scss';
+@import '~@scss/buttons.scss';
+@import '~@scss/blog/search.scss';
+
+.container {
+  padding: 0 15px;
+  max-width: 973px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  margin: 0;
+}
+#app {
+  // @media (max-width: 753px) {
+  //   padding-top: 50px;
+  // }
+}

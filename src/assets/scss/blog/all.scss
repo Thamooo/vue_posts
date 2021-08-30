@@ -1,0 +1,88 @@
+.blogs {
+  @media (max-width: 753px) {
+    padding-top: 44px;
+  }
+  &__header {
+    display: none;
+    @media (max-width: 753px) {
+      display: block;
+    }
+    &_h1 {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      line-height: 36px;
+      font-family: 'Manrope';
+      font-weight: 700;
+      font-size: 32px;
+    }
+    &_search {
+      padding: 10px 0;
+    }
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+    justify-content: center;
+    transition: all 0.3s ease;
+    @media (max-width: 1016px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 753px) {
+      grid-template-columns: 1fr;
+    }
+    @media (max-width: 674px) {
+      display: block;
+    }
+  }
+  &__pagination {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    @media (max-width: 753px) {
+      justify-content: center;
+    }
+
+    &_item {
+      line-height: 20px;
+      border: 1px solid #e2e2e2;
+      background: none;
+      width: 32px;
+      height: 32px;
+      font-family: 'SFPro';
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
+
+      &-active {
+        color: $primary_color;
+        border-color: $primary_color;
+      }
+    }
+  }
+  &__loading {
+    &-h2 {
+      font-family: 'Manrope';
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+  &__notfound {
+    &-h2 {
+      font-family: 'Manrope';
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+}
